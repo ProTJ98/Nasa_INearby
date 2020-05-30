@@ -19,47 +19,48 @@
         android:layout_height="179dp"
         android:src="@drawable/ic_image_logo_w"
 
-        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="536dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="Welcome to INearby"
+        android:text="Sign In"
         android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="153dp" />
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="131dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="Help is always there"
+        android:text="Email"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="238dp" />
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="363dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="165dp"
-        android:layout_height="60dp"
-        android:background="@color/colorAccent"
-        android:text="Sign In"
+        android:id="@+id/button3"
+        android:layout_width="99dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="OK"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="304dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="262dp"
-        android:layout_height="63dp"
-        android:background="@color/colorAccent"
-        android:text="Create An Account"
-        android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="395dp" />
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="443dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

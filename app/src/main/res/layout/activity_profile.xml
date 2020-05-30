@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:background="#00ACB9"></View>
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="129dp"
+        android:layout_height="149dp"
+
+        android:src="@drawable/ic_image_logo"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+    <ImageView
+        android:id="@+id/imageid"
+        android:layout_width="190dp"
+        android:layout_height="180dp"
+
+        android:src="@drawable/ic_image_id"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Button
+        android:layout_width="117dp"
+        android:layout_height="119dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="My Proile"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="125dp"
+        android:layout_height="118dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Create Application"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="119dp"
+        android:layout_height="120dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="History"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="119dp"
+        android:layout_height="120dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Posts"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="127dp"
+        android:layout_height="122dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Notifications"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="130dp"
+        android:layout_height="118dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Active Applications"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Claudia Schiller"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
