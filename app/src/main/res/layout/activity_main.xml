@@ -7,38 +7,75 @@
     android:background="#FFFFFF"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </FrameLayout>
 
     <View
+        android:id="@+id/view"
         android:layout_width="0dp"
-        android:layout_height="360dp"
-        android:background="#00ACB9"></View>
+        android:layout_height="0dp"
+        android:layout_marginBottom="47dp"
+        android:background="#00ACB9"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></View>
 
     <ImageView
 
         android:id="@+id/imageView"
-        android:layout_width="290dp"
+        android:layout_width="0dp"
         android:layout_height="247dp"
 
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="51dp"
         android:src="@drawable/ic_image_logo"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="82dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
         android:text="The mobile application allows those    who need help to find it. And for those who can help, do it as conveniently and quickly as possible."
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="495dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/container"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="56dp"
         android:text="Help is always there"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="407dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Next"
+        android:textColor="#FFFFFF" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

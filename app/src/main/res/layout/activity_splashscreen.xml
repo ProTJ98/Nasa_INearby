@@ -9,17 +9,26 @@
 
 
     <View
+        android:id="@+id/view5"
         android:layout_width="0dp"
         android:layout_height="270dp"
-        android:background="#00ACB9"></View>
+        android:background="#00ACB9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></View>
 
     <ImageView
 
-        android:layout_width="371dp"
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
         android:layout_height="405dp"
-        android:src="@drawable/ic_image_logo"
 
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="151dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_image_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
